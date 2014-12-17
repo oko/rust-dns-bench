@@ -1,0 +1,10 @@
+[package]
+
+name = "dns-bench"
+version = "0.0.1"
+authors = ["Jacob Okamoto <okam0013@umn.edu>"]
+
+[dependencies.dns]
+git = "https://github.com/oko/rust-dns.git"
+[dependencies.time]
+git = "https://github.com/rust-lang/time.git"
